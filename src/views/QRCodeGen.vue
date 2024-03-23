@@ -51,7 +51,7 @@ export default {
     async onSubmit() {
       console.log("Data ", this.form)
       try {
-        const response = await axios.get('http://api.qrserver.com/v1/create-qr-code/', {
+        const response = await axios.get('https://api.qrserver.com/v1/create-qr-code/', {
           params: {
             data: this.form.data,
             size: '100x100'
