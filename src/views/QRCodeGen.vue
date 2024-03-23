@@ -49,7 +49,7 @@ export default {
   },
   methods: {
     async onSubmit() {
-      console.log("Data", this.form)
+      console.log("Data ", this.form)
       try {
         const response = await axios.get('http://api.qrserver.com/v1/create-qr-code/', {
           params: {
