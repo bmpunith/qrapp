@@ -8,7 +8,7 @@ export default defineConfig({
   plugins: [
     vue(),
   ],
-  base: '/qrcodegenerator.github.io/',
+  base: '/qrcodegenerator/',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
